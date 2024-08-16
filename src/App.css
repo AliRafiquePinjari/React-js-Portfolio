@@ -1,0 +1,38 @@
+/* Light Mode */
+
+body {
+  background-color: white;
+  color: black;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Dark Mode */
+
+.dark body {
+  background-color: #1a202c;
+  color: white;
+}
+
+/* Transition for smooth effect */
+.bg-white {
+  transition: background-color 0.3s ease;
+}
+
+.bg-gray-900 {
+  transition: background-color 0.3s ease;
+}
+
+.dark .text-gray-800 {
+  color: #e2e8f0;
+}
+
+.dark .bg-slate-200 {
+  background-color: #2d3748;
+}
+
+.dark .text-gray-200 {
+  color: #cbd5e0;
+}
